@@ -1,4 +1,3 @@
-ini, TOML
 [package]
 name = "edge-monitor"
 version = "0.1.0"
@@ -9,4 +8,4 @@ crate-type = ["cdylib"] #essential for WASM
 
 [dependencies]
 wasm-bidgen = "0.2"
-web-sys = { version = "0.3", features = ["Window". "Request", "Response"] }
+web-sys = { version = "0.3", features = ["Window", "Request", "Response"] }
